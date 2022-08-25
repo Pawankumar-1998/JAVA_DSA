@@ -2,7 +2,7 @@ package com.Arrays.Assignments;
 
 import java.util.Arrays;
 
-public class Leetcode_1480 {
+public class Sum_OfArray {
     public static void main(String[] args) {
         int[] nums = {1,2,3,4};
 

@@ -2,7 +2,7 @@ package com.Arrays.Assignments;
 
 import java.util.Arrays;
 
-public class Leetcode_1929 {
+public class Concatenation {
     public static void main(String[] args) {
 //        https://leetcode.com/problems/concatenation-of-array/
         int[] nums = {1,2,1};

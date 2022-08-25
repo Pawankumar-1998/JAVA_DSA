@@ -2,7 +2,7 @@ package com.Arrays.Assignments;
 
 import java.util.Arrays;
 
-public class Leetcode_1920 {
+public class Permuntation {
     public static void main(String[] args) {
 //        https://leetcode.com/problems/build-array-from-permutation/
         int[] nums = {0,2,1,5,3,4};
