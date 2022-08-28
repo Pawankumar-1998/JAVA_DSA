@@ -1,7 +1,5 @@
 package com.Linear_Search;
 
-import com.Arrays.Max_Value;
-
 import java.util.Arrays;
 
 public class SearchIn2d {
