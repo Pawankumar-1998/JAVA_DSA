@@ -8,8 +8,8 @@ public class Min_Max_In2dArray {
                 {12 , 61 }
 
         };
-        System.out.println(min(arr));
-        System.out.println(max(arr));
+        System.out.println(min(arr)); // this print the minimum number in the array
+        System.out.println(max(arr)); // this print the maximum number in the array
 
     }
 //    function for finding the min element value in 2D array
