@@ -2,10 +2,10 @@ package com.Linear_Search;
 
 public class Even_digits {
     public static void main(String[] args) {
-        int[] nums = {12,345,2,6,7896,89};
+        int[] nums = {12,345,2,6,7896,89,-47 ,0};
         System.out.println(EvenDigit(nums));
     }
-
+// this  function returns the nuber 
     static int EvenDigit(int[] nums){
         int count = 0;
         for (int element : nums){
@@ -27,6 +27,12 @@ public class Even_digits {
     }
 
     static int countOfNumber(int num){
+        if (num<0){
+            num= num  *-1;
+        }
+        if (num==0){
+            return  1;
+        }
         int count = 0;
         while (num>0){
             count++;
