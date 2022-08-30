@@ -22,6 +22,7 @@ public class Array_list {
         list.add(61);
         list.add(78);
         list.add(60);
+        list.add(0,56);
 
         System.out.println(list.contains(21)); // it returns true if the value is present in the list
 //        for (int i = 0; i <10 ; i++) {
