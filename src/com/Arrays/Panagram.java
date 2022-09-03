@@ -2,7 +2,7 @@ package com.Arrays;
 
 public class Panagram {
     public static void main(String[] args) {
-        String sentence = "thequickbrownfoxjumpsoverthelazydog";
+        String sentence = "leetcode";
         System.out.println(cheakPanagram(sentence));
 
     }
