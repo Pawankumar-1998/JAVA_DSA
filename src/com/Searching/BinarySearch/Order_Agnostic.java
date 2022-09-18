@@ -1,4 +1,4 @@
-package com.Searching;
+package com.Searching.BinarySearch;
 
 public class Order_Agnostic {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.Searching;
+package com.Searching.BinarySearch;
 
 import java.util.Scanner;
 
