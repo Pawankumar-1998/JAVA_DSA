@@ -7,6 +7,9 @@ public class Order_Agnostic {
         System.out.println(orderAgnostic(arr,target));
     }
 
+
+
+
     static int orderAgnostic(int[] arr , int target){
         int start =0;
         int end = arr.length-1;
