@@ -37,11 +37,11 @@ public class RBS {
 //            this is the 3rd case
             if (nums[start]>=nums[mid]){
                 end = mid - 1;
-            }
-//            this is the fourth case
-            if (nums[start]<nums[mid]){
+            } else {
                 start = mid + 1;
             }
+//            this is the fourth case
+
         }
         return -1;
     }
