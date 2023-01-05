@@ -11,12 +11,12 @@ public class Number_1480 {
         int[] nums = {1,2,3,4};
         System.out.println(Arrays.toString(runningSum(nums)));
     }
-    static int[] runningSum(int[] nums){
-        int n  = nums.length;
+    static int[] runningSum(int[] accounts){
+        int n  = accounts.length;
         int[] ans = new int[n];
         int sum = 0;
         for (int i = 0; i < n; i++) {
-            sum = sum + nums[i];
+            sum = sum + accounts[i];
             ans[i]=sum;
         }
         return ans;
