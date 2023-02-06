@@ -3,7 +3,15 @@ package com.Situation_Based;
 import java.util.Scanner;
 import java.lang.String;
 
-public class ExpireItems {
+/*
+There is a sale store which is dealing with two types of items
+1> Perishable -- Assume 5
+2> Non-Perishable -- Assume 5
+again you have to manage the sale of these items as per there date of expiry.
+place the item in first slot which expires soon as to sale it at first
+ */
+
+public class Situation_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 //        perishable item
@@ -23,10 +31,12 @@ public class ExpireItems {
             expiryPerishable[i] = sc.nextInt();
         }
         System.out.println("Perishable item sorted successfully as per expiry dates");
+//        sending perishable item array and expire array of perishable into bubble sort
         bubbleSort(expiryPerishable,perishableItem);
         for (int i = 0; i < n ; i++) {
             System.out.println("item to be sold at " + (i+1) + " is " + perishableItem[i] + " As it expires in -> " + expiryPerishable[i] + " Days");
         }
+
 
 //        inserting elements in the non - Perishable items
         System.out.println();
