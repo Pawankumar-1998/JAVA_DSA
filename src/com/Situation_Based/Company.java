@@ -2,6 +2,15 @@ package com.Situation_Based;
 
 import java.util.Scanner;
 
+/*
+Condition :-
+There is a company maintaining five different products.
+company has a policy to maintain minimum quantity in hand ,
+for each product which is also a different value against different product ,
+when company is supplying the product to its vendor ensures that quantity in hand is to be maintained ,
+at the same time company also ensure the maximum stock in hand for each of the product.
+ */
+
 public class Company {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
