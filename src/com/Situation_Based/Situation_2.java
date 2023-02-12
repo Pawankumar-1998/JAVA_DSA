@@ -2,7 +2,7 @@ package com.Situation_Based;
 
 import java.util.Scanner;
 
-public class StocksInventory {
+public class Situation_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the product name to order");
