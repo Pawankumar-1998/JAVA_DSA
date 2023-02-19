@@ -37,7 +37,9 @@ class Student{
     String name;
     float marks;
 
+//    default constructor
     Student(){
+//        calling a constructor in a constructor using this keyword
         this(3,"suman",65.4f);
     }
 
