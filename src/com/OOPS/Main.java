@@ -24,8 +24,8 @@ public class Main {
 //        System.out.println(rahul.name);
 //        System.out.println(rahul.marks);
 
-        Student random = new Student();
-        System.out.println(random.name);
+        Student pawan1 = new Student(20,"pawan",85.0f);
+//        System.out.println(random.name);
 
     }
 }
@@ -38,15 +38,15 @@ class Student{
     float marks;
 
 //    default constructor
-    Student(){
-//        calling a constructor in a constructor using this keyword
-        this(3,"suman",65.4f);
-    }
+//    Student(){
+////        calling a constructor in a constructor using this keyword
+//        this(3,"suman",65.4f);
+//    }
 
-    Student(int  rollNo, String name , float marks){
-        this.rollNo = rollNo;
-        this.name = name;
-        this.marks = marks;
+    Student(int  roll, String naam , float mark){
+        this.rollNo = roll;
+        this.name = naam;
+        this.marks = mark;
     }
 }
 
