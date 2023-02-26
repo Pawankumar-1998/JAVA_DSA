@@ -21,6 +21,7 @@ public class Code {
                     sorted = true;
                 }
             }
+
 //            if swap didnt happen for a particular value of i , that means array is sorted
             if (sorted==false){
                 break;
