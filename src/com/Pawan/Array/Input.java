@@ -7,6 +7,11 @@ public class Input {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        int[] arr1 = new int[5];
+        Class name = arr1.getClass();
+        String naam = name.getName();
+        System.out.println(naam);
+
 //
         int[] arr = new int[5];
 //        arr[0] = 96;
