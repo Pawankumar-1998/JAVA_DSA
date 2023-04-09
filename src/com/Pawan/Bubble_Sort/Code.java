@@ -8,6 +8,8 @@ public class Code {
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
+    // Time Complexity is O(N^2) and space is O(1)
+    // this is not adaptive we are making it adaptive by using boolean
     static void bubbleSort(int[] arr){
         boolean sorted;
         for (int i = 0; i < arr.length; i++) {
@@ -18,7 +20,7 @@ public class Code {
                     int temp = arr[j];
                     arr[j] = arr[j-1];
                     arr[j-1] = temp;
-                    sorted = true;
+                    sorted = true; //-> for adaptive check 
                 }
             }
 
