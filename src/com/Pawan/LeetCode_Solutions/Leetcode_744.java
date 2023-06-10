@@ -2,8 +2,8 @@ package com.Pawan.LeetCode_Solutions;
 
 public class Leetcode_744 {
     public static void main(String[] args) {
-        char[] arr = { 'c' , 'f' , 'j'};
-        char target = 'j';
+        char[] arr = { 'x' , 'x' , 'y' , 'y'};
+        char target = 'z';
         System.out.println(arr.length);
         System.out.println(nextGreatestLetter(arr,target));
     }
