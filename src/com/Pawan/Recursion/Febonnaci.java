@@ -4,7 +4,7 @@ public class Febonnaci {
     public static void main(String[] args) {
 //        using the recursion
 
-        int ans=febonacci(4);
+        int ans=febonacci(50);
         System.out.println("the febonacci number of the entered number is :" + ans);
 
 
