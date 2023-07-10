@@ -1,38 +1,24 @@
 package com.Pawan.OOPS.Lecture3.Inheritance.SingleIherit;
 
 public class Box {
-    double l;
-    double w;
-    double h;
-//default constructor
+    int length;
+    int width;
+    int height;
+
     Box(){
-        super();
-        this.l = -1;
-        this.w = -1;
-        this.h = -1;
+        this.length = -1;
+        this.width = -1;
+        this.height = -1;
     }
 
-
-//parameterised constructor
-    Box(double side){
-        this.l = side;
-        this.h=side;
-        this.w=side;
-    }
-//parameterised constructor
-    Box(double l , double w, double h){
-        this.l = l;
-        this.w = w;
-        this.h = h;
-    }
-//copy constructor
-    Box(Box object){
-        this.l = object.l;
-        this.w = object.w;
-        this.h = object.h;
+//    use this constructor if you want a box all the dimensions same
+    Box(int dimension){
+        this.length = dimension;
+        this.width = dimension;
+        this.height = dimension;
     }
 
-    public void information(){
-        System.out.println("this is a function in Box class");
+    public void message(){
+        System.out.println("this message is from Box class ");
     }
 }
