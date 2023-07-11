@@ -21,5 +21,22 @@ public class World {
         SpriteBox pvp = new SpriteBox(23);
         System.out.println("the length of the box in pvp is " + pvp.length);
         System.out.println("the weigth of the box in pvp is  " + pvp.weight);
+
+//        this condition is used when you want to customize the box according to you
+        SpriteBox vskp = new SpriteBox(10,20,10,25);
+        System.out.println("the weigth of the box in pvp is  " + vskp.weight);
+        System.out.println("the length of the box in pvp is " + vskp.length);
+
+//        this condition is in rayagada where you want just se the prize of the box but the dimension
+//        of the box is the default one
+
+        SpriteCase rgdaCase = new SpriteCase(500);
+        System.out.println("the price  of the case in rgda is  " + rgdaCase.cost);
+        System.out.println("the height   of the case  in rgda is  " + rgdaCase.height);
+
+
+//        this condition in for punjab where you want to customize the dimension , weight and cost of
+//        case
+        SpriteCase punjab = new SpriteCase();
     }
 }

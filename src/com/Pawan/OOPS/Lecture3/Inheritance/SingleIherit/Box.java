@@ -18,6 +18,13 @@ public class Box {
         this.height = dimension;
     }
 
+//    use this constructor if you want any custom modification in dimensions
+    Box(int length , int width , int height){
+        this.length = length;
+        this.width = width;
+        this.height = height;
+    }
+
     public void message(){
         System.out.println("this message is from Box class ");
     }
