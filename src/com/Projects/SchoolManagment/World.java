@@ -49,5 +49,37 @@ public class World {
 
         System.out.println(studentListDCS);
 
+
+//        paying the salary to the teacher
+            sujata.reciveSalary(sujata.getSalary());
+
+        System.out.println("the salary of " + sujata.getName() + "is" + sujata.getSalary());
+
+        System.out.println("the total revenue spent by the school is " + DeeptiCS.getRevenueSpent());
+        System.out.println("the total  revenue  of  the school is " + DeeptiCS.getTotalRevenue());
+
+        rahul.payFees(3000);
+        System.out.println("the total  revenue  of  the school is " + DeeptiCS.getTotalRevenue());
+
+        mani.payFees(8000);
+        System.out.println("the total  revenue  of  the school is " + DeeptiCS.getTotalRevenue());
+
+//        paying the salary to the teacher
+        manisha.reciveSalary(manisha.getSalary());
+        System.out.println("the total revenue spent by the school is " + DeeptiCS.getRevenueSpent());
+        System.out.println("the total  revenue  of  the school is " + DeeptiCS.getTotalRevenue());
+
+
+//        using to string to get the information of the object
+        System.out.println(dinesh);
+
+        System.out.println(manisha);
+
+
+//        using the method to display the student and teachers in the school
+//        DeeptiCS.detailsOf();
+
+
+
     }
 }

@@ -78,4 +78,15 @@ public class Student {
     public int remainingFees(){
         return totalFees - feesPaid;
     }
+
+
+    /**
+     * giving the useful information about the object
+     * @return the details of the object
+     */
+    @Override
+    public String toString() {
+        return "the name of the student is "+ this.name + "\n" +
+                "total fees paid by the student is " + this.feesPaid;
+    }
 }

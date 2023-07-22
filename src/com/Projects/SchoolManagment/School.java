@@ -23,8 +23,8 @@ public class School {
     public School(List<Teacher> teachers, List<Student> students) {
         this.teachers = teachers;
         this.students = students;
-        this.totalRevenue = 0;
-        this.revenueSpent = 0;
+        totalRevenue = 0;
+        revenueSpent = 0;
     }
 
     public List<Teacher> getTeachers() {
@@ -51,11 +51,18 @@ public class School {
         totalRevenue += Revenue;
     }
 
-    public static int getRevenueSpent() {
+    public  int getRevenueSpent() {
         return revenueSpent;
     }
 
-    public void updateRevenueSpent(int revenueSpend) {
+    public static void updateRevenueSpent(int revenueSpend) {
+        revenueSpent += revenueSpend;
         totalRevenue -= revenueSpend;
+    }
+
+
+    public void detailsOf(){
+        System.out.println(teachers);
+        System.out.println(students);
     }
 }

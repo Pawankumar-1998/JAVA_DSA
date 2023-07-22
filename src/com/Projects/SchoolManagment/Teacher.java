@@ -3,7 +3,9 @@ package com.Projects.SchoolManagment;
 public class Teacher {
     private int id;
     private String name;
-    private static int salary;
+    private  int salary;
+
+    private int salaryReceived;
 
     /**
      * when the object is created
@@ -27,11 +29,20 @@ public class Teacher {
     }
 
     public int getSalary(){
-        return this.salary;
+        return salary;
     }
 
 
-    public static void setSalary(int salarypaid){
-        salary = salarypaid;
+    public void reciveSalary(int salary){
+        salaryReceived+=salary;
+
+        School.updateRevenueSpent(salary);
+    }
+
+
+    @Override
+    public String toString() {
+        return "the name of the teacher is " + this.getName() + "\n" +
+                "the total amount of salary received by the teacher is " + this.salaryReceived;
     }
 }
