@@ -72,7 +72,7 @@ public class Student {
 
     public void  payFees(int payingFees){
         this.feesPaid+=payingFees;
-        School.updateTotalRevenue(feesPaid);
+        School.updateTotalRevenue(payingFees);
     }
 
     public int remainingFees(){
