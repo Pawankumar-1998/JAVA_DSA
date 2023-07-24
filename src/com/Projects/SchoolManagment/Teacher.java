@@ -39,6 +39,10 @@ public class Teacher {
         School.updateRevenueSpent(salary);
     }
 
+    public int totalSalaryRecevied(){
+        return salaryReceived;
+    }
+
 
     @Override
     public String toString() {

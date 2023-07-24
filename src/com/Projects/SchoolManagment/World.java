@@ -81,8 +81,21 @@ public class World {
 
 //      using to string to get the information of the object
         System.out.println(dinesh);
-
         System.out.println(manisha);
+
+//        checking the revenue of the school and paying salary to the teacher
+        System.out.println("the total  revenue  of  the school is " + DeeptiCS.getTotalRevenue());
+
+        // let rahul the fees
+        System.out.println(rahul.getFeesPaid()); // 4000
+        rahul.payFees(10000);
+        System.out.println("the total  revenue  of  the school is " + DeeptiCS.getTotalRevenue()); // 3000 as salary paid
+
+        // paying the salary to the teacher
+        manisha.reciveSalary(manisha.getSalary());
+        System.out.println("the total  revenue  of  the school is " + DeeptiCS.getTotalRevenue()); // 3000 as salary paid
+        System.out.println("total salary recevied by " +  manisha.getName() + " is " + manisha.totalSalaryRecevied());
+
 
 
 
