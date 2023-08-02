@@ -33,9 +33,16 @@ public class World {
          */
 
 
+        /**
+         * testing the paying limit of the student below
+         * if he pays the total fees he cannot pay further or extra amount
+         */
 
 
-
+        Student rahul = new Student(1,4,"Rahul Pattnaik",8000);
+        rahul.payFees(8000);
+        System.out.println(rahul.getFeesDue());
+        rahul.payFees(1000);
 
 
     }

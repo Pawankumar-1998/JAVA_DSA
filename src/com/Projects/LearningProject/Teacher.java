@@ -24,6 +24,13 @@ public class Teacher {
     }
 
 
+    /**
+     * below function is used to get recive the salary and credit it to the own account
+     */
+
+    public void reaciveSalary(int reciveAmount)
+
+
 
 
 }

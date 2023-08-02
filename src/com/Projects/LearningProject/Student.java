@@ -17,7 +17,7 @@ public class Student {
         this.name = name;
         this.totalFees = totalFees;
         this.feesDue = totalFees;
-        this.totalFees = 0;
+        this.totalFeesPaid= 0;
     }
 
 
@@ -61,8 +61,13 @@ public class Student {
      */
 
     public void payFees(int payingAmount){
-        feesDue = feesDue - payingAmount;
-        totalFeesPaid = totalFeesPaid + payingAmount;
+        if(totalFeesPaid<totalFees) {
+            feesDue = feesDue - payingAmount;
+            totalFeesPaid = totalFeesPaid + payingAmount;
+            System.out.println("Payment done Successfully !");
+        } else {
+            System.out.println("Already Paid the full Amount !");
+        }
     }
 
     public int getTotalFeesPaid() {
