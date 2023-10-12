@@ -1,4 +1,4 @@
-package com.Pawan.Recursion;
+package com.Pawan.Recursion.BasicQuestions;
 
 public class Febonacci {
     public static void main(String[] args) {

@@ -8,6 +8,11 @@ public class TailFact {
         if (n==1){
             return ansStorage;
         }
+        /**
+         * this below line always create a new stack which may cause stack overflow
+         *
+         * Time complexity = o(n)
+         */
 
         return f(n-1,n * ansStorage);
     }

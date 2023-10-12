@@ -1,4 +1,4 @@
-package com.Pawan.Recursion;
+package com.Pawan.Recursion.BasicQuestions;
 
 public class UnderstandingRecursion {
     public static void main(String[] args) {

@@ -2,10 +2,10 @@ package com.Pawan.Recursion.Arrays;
 
 public class RotateBS {
     public static void main(String[] args) {
-        int[] arr = {4,5,6,8,9,1,2,3};
-        System.out.println("the pivot in the array is in the index " + pivot(arr,0, arr.length-1));
-        System.out.println("the number you are searching for is at the index ");
-        System.out.println(f(arr,9,0, arr.length-1));
+        int[] arr = {4,5,6,7,0,1,2};
+//        System.out.println("the pivot in the array is in the index " + pivot(arr,0, arr.length-1));
+//        System.out.println("the number you are searching for is at the index ");
+        System.out.println(f(arr,0,0, arr.length-1));
 
     }
 
@@ -32,7 +32,12 @@ public class RotateBS {
             }
         }
 
-        return -1;
+//        if the target is in the right sorted array
+        if (target>=arr[mid] && target<=arr[end]){
+            return f(arr,target,mid+1,end);
+        }
+
+        return f(arr,target,start,mid-1);
 
     }
 
