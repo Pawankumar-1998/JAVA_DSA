@@ -7,6 +7,8 @@ public class Main {
         linkedList.insertAtFirst(10);
         linkedList.insertAtFirst(8);
         linkedList.insertAtFirst(12);
+        linkedList.insertAtLast(21);
+        linkedList.insertAtPosition(150,44);
 
         linkedList.printLL();
     }
